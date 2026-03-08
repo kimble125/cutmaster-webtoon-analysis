@@ -1,0 +1,62 @@
+# Data files (too large for Git)
+data/raw/
+data/processed/
+data/external/
+data/interim/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+conda-env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Database files
+*.db
+*.sqlite
+
+# Large result files
+results/models/
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# Azure Storage Emulator (Azurite)
+__azurite_*.json
+__blobstorage__/
+AzuriteConfig
+
+# Large/raw Data files (Overrides)
+*.zip
+*.xlsx
+
+# (Optional) If you want to push data/processed/*.csv to Github to show recruiters:
+# !data/processed/*.csv
+_archive/
+Articles/

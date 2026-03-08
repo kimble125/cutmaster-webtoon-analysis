@@ -1,0 +1,41 @@
+Analyzed Genre: 로맨스
+Sample Size: 18
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     views_velocity_log   R-squared:                       0.392
+Model:                            OLS   Adj. R-squared:                 -0.292
+Method:                 Least Squares   F-statistic:                    0.5736
+Date:                Sun, 08 Mar 2026   Prob (F-statistic):              0.788
+Time:                        19:12:05   Log-Likelihood:                -18.152
+No. Observations:                  18   AIC:                             56.30
+Df Residuals:                       8   BIC:                             65.21
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             3.6077      7.749      0.466      0.654     -14.261      21.476
+lighting_측면조명   -11.6264     17.359     -0.670      0.522     -51.655      28.402
+lighting_상부조명     1.2610     13.909      0.091      0.930     -30.813      33.335
+lighting_전면조명    -3.7196      6.477     -0.574      0.582     -18.655      11.216
+lighting_역광조명    30.4317     25.702      1.184      0.270     -28.838      89.701
+shot_미디엄 샷        2.5503      8.513      0.300      0.772     -17.081      22.182
+shot_클로즈업 샷       0.3443      9.053      0.038      0.971     -20.531      21.220
+shot_풀 샷          7.9301     15.743      0.504      0.628     -28.374      44.234
+shot_롱 샷         -7.2170     37.145     -0.194      0.851     -92.874      78.440
+angle_아이레벨        1.1927      4.977      0.240      0.817     -10.285      12.670
+angle_하이앵글        7.7477      8.074      0.960      0.365     -10.871      26.367
+angle_로우앵글       -5.3327      6.281     -0.849      0.421     -19.816       9.151
+lighting_하부조명   -12.7391     35.904     -0.355      0.732     -95.534      70.056
+==============================================================================
+Omnibus:                        3.652   Durbin-Watson:                   2.012
+Prob(Omnibus):                  0.161   Jarque-Bera (JB):                1.706
+Skew:                           0.189   Prob(JB):                        0.426
+Kurtosis:                       4.460   Cond. No.                     2.34e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.05e-33. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
